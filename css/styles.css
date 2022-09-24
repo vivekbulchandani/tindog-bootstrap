@@ -1,0 +1,175 @@
+#title{
+     background-color: #ff4c68;    
+}
+.container-fluid{
+    padding: 3% 15% 7% 15% ;
+}
+h1{
+    font-family: montserrat;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #ffff;
+}
+.navbrand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem 0 ;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.navbarlink{
+    font-size: 1.2rem;
+    font-family: Ubuntu;
+}
+.buttons{
+    margin: 5% 3% 5%  ;
+}
+.iphonepic{
+     
+    transform: rotate(25deg);
+    position: absolute;
+    width: 19%;
+    right: 19%;
+}
+
+
+
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #ffff;
+    position: relative;
+    
+    text-align: center;
+
+    
+    
+}
+.featurescol{
+    padding:5% ;
+    
+}
+.featuresheading{
+    font-family:Montserrat;
+    font-weight: bold;
+}
+.featuresicon{
+    color: #ef8172;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+.featurespara{
+    color: #8f8f8f;
+}
+
+.featuresicon:hover{
+    color: #ff4c68;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #ffff;
+}
+h2{
+    color: black;
+    font-weight: 750;
+    padding-bottom: 3rem;   
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonialimage{
+    border-radius: 90px;
+    width: 100px;
+}
+
+.carouselitem{
+    padding: 7% 15%;
+}
+
+
+/* 
+press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7% 10%;
+}
+.pressimage{
+    padding: 0 2%;
+    width: 250px;
+}
+
+
+/* pricing */
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricingcard{
+    padding: 3px 20px;
+}
+
+  /* call to action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+.ctaheading{
+    font-family: Montserrat;
+    color: #ffff;
+    width: 80%;
+    margin: auto;
+    font-size: 3rem;
+    
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: #ffff;
+    padding: 50px;
+}
+.footerlogo{
+    padding: 1% 1%;
+}
+
+
+
+@media (max-width:992px) {
+    .iphonepic{
+        transform: rotate(0deg);
+        width: 60%;
+        position: static;
+    }
+
+    #title{
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
